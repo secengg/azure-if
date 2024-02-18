@@ -27,12 +27,6 @@ variable "kind" {
     description = "Storage Account Type"
 }
 
-variable "name" {
-    type        = string
-    description = "Name of File Share"
-    default     = "myshare1"
-}
-
 variable "enable_versioning" {
   type      = bool
   description = "Whether Versioning Is Required Or Not" 
