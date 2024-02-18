@@ -23,7 +23,7 @@ variable "replication_type" {
 
 variable "kind" {
   type        = string
-  default     = "StandardV2"
+  default     = "StorageV2"
   description = "Storage Account Type"
 }
 
